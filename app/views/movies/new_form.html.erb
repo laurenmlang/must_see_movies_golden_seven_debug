@@ -1,13 +1,10 @@
 <div class="page-header">
   <h1>Add Movie</h1>
 </div>
-
-<form class="form-horizontal">
+<form action = "/create_movie"class="form-horizontal">
   <!-- Label and input for title -->
   <div class="form-group">
-    <label for="title" class="col-sm-2 control-label">
-      Title
-    </label>
+    <label for="title" class="col-sm-2 control-label">Title</label>
     <div class="col-sm-10">
       <input type="text" id="title" name="title" placeholder="Title" class="form-control">
     </div>
@@ -39,7 +36,7 @@
       Description
     </label>
     <div class="col-sm-10">
-      <textarea id="description" name="description" placeholder="Description" class="form-control" rows="3"></textarea>
+      <input type ="text" id="description" name="description" placeholder="Description" class="form-control" rows="3">
     </div>
   </div>
 
